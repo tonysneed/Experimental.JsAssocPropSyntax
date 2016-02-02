@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Jasmine Tests",
+			"type": "node",
+			"request": "launch",
+			"program": "node_modules/jasmine-node/bin/jasmine-node",
+			"stopOnEntry": false,
+			"args": [
+                "src",
+				"--verbose"
+            ],
+			"cwd": "."
+		}
+	]
+}
